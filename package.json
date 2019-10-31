@@ -1,0 +1,24 @@
+{
+  "name": "flux-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify -t reactify ./js/app.js > ./js/bundle.js",
+    "watch": "watchify -v -t reactify ./js/app.js -o ./js/bundle.js"
+  },
+  "author": "Yasuaki Omokawa<omokawa@senk-inc.co.jp",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "flux": "^2.0.3",
+    "keymirror": "^0.1.1",
+    "object-assign": "^2.0.0",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.0",
+    "reactify": "^1.1.1",
+    "watchify": "^3.2.1"
+  }
+}
