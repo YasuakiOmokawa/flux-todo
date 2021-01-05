@@ -10,7 +10,7 @@
   "author": "Yasuaki Omokawa<omokawa@senk-inc.co.jp",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "flux": "^2.0.3",
     "keymirror": "^0.1.1",
     "object-assign": "^2.0.0",
